@@ -1,0 +1,30 @@
+obt_marks = int(input("Enter your marks: "))
+total_marks = int(input("Enter your total marks: "))
+
+percentage = (obt_marks / total_marks) * 100
+print("Your percentage is:", percentage)
+
+if total_marks == 0 or obt_marks == total_marks:
+    print("Invalid:") 
+
+if percentage >= 90:
+    print("Grade A:")
+elif percentage >= 85:
+    print("Grade A-:")
+elif percentage >= 80:
+    print("Grade B+:")
+elif percentage >=75:
+    print("Grade B:")
+elif percentage >=70:
+    print("Grade B-:")
+elif percentage >=65:
+    print("Grade C+:")   
+elif percentage >=60:
+    print("Grade C-:")
+elif percentage >=55:
+    print("Grade D+:")
+elif percentage >=50:
+    print("Grade D-")
+
+else:
+    print("Grade: F")
