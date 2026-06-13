@@ -34,4 +34,4 @@ print(type(d))
 def student(name, roll_no):
     print(f"Name of student: {name}\n Roll No of student:{roll_no}")
 
-student("Badar", 30)
+student("Ahmad Bilal", 41)
