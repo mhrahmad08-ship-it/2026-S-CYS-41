@@ -1,4 +1,4 @@
 # Variant A - academic edition
-print("Name: Badar Ul Zaman")
+print("Name: Ahmad Bilal")
 print("Department: Cyber Security")
 print("University: Uet Lahore")
