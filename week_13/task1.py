@@ -3,6 +3,6 @@ def greet(name, age):
     print(f"Welcome {name}!")
     print(f"You are {age} years old.")
 
-greet("Badar", 18)
+greet("Ahmad Bilal", 19)
 
  
